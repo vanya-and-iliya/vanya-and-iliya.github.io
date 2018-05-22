@@ -182,10 +182,17 @@ h1, h2, h3, h4, h5, h6, ul#main_menu li a, .title_front, .title_date, .title_und
 	margin:0 40px 80px 0;
 	clear:both;
 }
+
 .left14{
 	width:245px;
 	float:left;
+	margin:0 40px 80px 0;
+}
+
+@media screen and (max-width: 680px) {
+.left14{
 	margin:0 calc((100vw - 245px)/2) 80px 0;
+}
 }
 .left14_last{
 	width:245px;
