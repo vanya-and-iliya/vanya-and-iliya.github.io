@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6, ul#main_menu li a, .title_front, .title_date, .title_und
 }
 
 .location{
-	width:340px;
+	width:100%;
 	margin:0 auto 80px auto;
 }
 .left14_first{
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6, ul#main_menu li a, .title_front, .title_date, .title_und
 .left14{
 	width:245px;
 	float:left;
-	margin:0 40px 80px 0;
+	margin:0 calc((100vw - 245px)/2) 80px 0;
 }
 .left14_last{
 	width:245px;
@@ -1617,7 +1617,7 @@ span.swirl_right_transparent{
 	.left14{
 	width:94%;
 	float:left;
-	margin:0 3% 80px 3%
+	margin:0 0 80px calc((100vw - 245px)/2);
 	}
 	.left14_last{
 	width:94%;
@@ -1752,7 +1752,7 @@ span.swirl_right_transparent{
 	.full_width_carousel .left14, .full_width_carousel .left14_last{
 	position:relative;
 	margin:auto;
-	margin:0 0 0 40px
+	margin:0 0 0 calc((100vw - 245px)/2);
 	}
 	.full_width_carousel .left14 h3, .full_width_carousel .left14_last h3{
 	background-color:#c9d170;
