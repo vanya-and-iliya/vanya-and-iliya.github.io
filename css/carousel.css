@@ -116,15 +116,8 @@
 	transition: height 500ms ease-in-out;
 }
 
-
 .owl-carousel .owl-item{
 	float: left;
-}
-
-@media screen and (min-width: 680px) {
-	.owl-carousel .owl-item{
-		margin-left:20px;
-	}
 }
 
 .owl-controls .owl-page,
