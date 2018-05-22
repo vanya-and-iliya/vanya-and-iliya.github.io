@@ -1,46 +1,3 @@
-/*------------------------------------------------------------------
-[Main Stylesheet]
-
-Author:	SindevoThemes
-Version:	1.1
-Created:	04 November 2014
-Last updated:	12 October 2016
-Template:	Wedding Bells HTML,CSS Template
--------------------------------------------------------------------*/
-
-/*-----------------------------------------------------------------
-[Table of Contents]
-
-1. RESET
-2. GENERAL
-	2-1 HEADINGS
-	2-2 GOOGLE FONTS
-3. LAYOUT
-4. MENU NAVIGATION
-5. CONTENT
-	5-1. HOME PAGE COUPLE NAMES
-	5-2. SLIDER
-	5-3. COUNTDOWN
-	5-4. ABOUT CONTENT
-	5-5. CAROUSEL
-	5-6. HOME BOTTOM
-6. BLOG
-	6-1. LATEST POSTS
-	6-2. BLOG PAGINATION
-	6-3. BLOG SINGLE
-	6-4. BLOG COMMENTS
-	6-5. LATEST POSTS WIDGET
-7. PHOTO GALLERY
-8. PAGES ELEMENTS
-	8-1. PAGE HEADERS
-	8-2. PAGE CONTENT
-	8-3. TWITTER WIDGE
-9. FORMS
-10. FOOTER
-11. MEDIA QUERIES
-    - @media screen and (max-width: 1180px)
-	- @media screen and (max-width: 680px)
-*/
 /*===============================================*/
 /* 1. RESET		 						 */
 /*===============================================*/
@@ -60,6 +17,10 @@ body{
 	font-size:14px;
 	margin:0 auto;
 	color:#6e6a5f;
+}
+#map {
+width:100%;
+height:500px;
 }
 .clear{
 	clear:both;
@@ -632,7 +593,7 @@ a.thumb_read_more:hover{
 /* 5-5. CAROUSEL 	 */
 /*---------------------------*/
 .carousel_container{
-	background:url(images/slider/slide2.jpg) no-repeat center center;
+	background:url(images/carousel-background.jpg) no-repeat center center;
 	width:100%;
 }
 .carousel_container_image{
