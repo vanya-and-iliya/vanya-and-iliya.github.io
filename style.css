@@ -160,10 +160,21 @@ h1, h2, h3, h4, h5, h6, ul#main_menu li a, .title_front, .title_date, .title_und
 	float:left;
 	margin:0 0 80px 0;
 }
-
-.location{
-	width:100%;
-	margin:0 auto 80px auto;
+.left13_first{
+	width:340px;
+	float:left;
+	margin:0 40px 80px 0;
+	clear:both;
+}
+.left13{
+	width:340px;
+	float:left;
+	margin:0 40px 80px 0;
+}
+.left13_last{
+	width:340px;
+	float:left;
+	margin:0 0 80px 0;
 }
 .left14_first{
 	width:245px;
