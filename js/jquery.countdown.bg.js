@@ -16,7 +16,7 @@ function Countdown() {
 	this.regional = []; // Available regional settings, indexed by language code
 	this.regional[''] = { // Default regional settings
 		// The display texts for the counters
-		labels: ['Години', 'Месеци', 'Седмици', 'Дни', 'Часове', 'Минути', 'Секунди'],
+		labels: ['Години', 'Месеца', 'Седмици', 'Дни', 'Часа', 'Минути', 'Секунди'],
 		// The display texts for the counters if only one
 		labels1: ['Година', 'Месец', 'Седмица', 'Ден', 'Час', 'Минута', 'Секунда'],
 		compactLabels: ['y', 'm', 'w', 'd'], // The compact texts for the counters
